@@ -6,7 +6,7 @@ pipeline {
   stages{
     stage('CheckOut') {
       steps {
-        git 'https://github.com/Aggasth/node-mongo.git'
+        git clone 'https://github.com/Aggasth/node-mongo.git'
         checkout scm
       }
     }
