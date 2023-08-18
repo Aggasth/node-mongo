@@ -25,10 +25,4 @@ pipeline {
       }
     }
   }
-
-  post {
-        always {
-            sh 'node -e "require(\"mongoose\").disconnect();"'
-        }
-    }
 }
