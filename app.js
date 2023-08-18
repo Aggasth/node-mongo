@@ -41,5 +41,5 @@ async function addProducts(){
     }
 }
 
-addProducts();
+//addProducts();
 printProducts();
